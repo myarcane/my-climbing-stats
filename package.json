@@ -1,0 +1,18 @@
+{
+  "name": "my-climbing-stats",
+  "version": "1.0.0",
+  "description": "A nodejs 8a.nu scrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Florian Mailliet",
+  "license": "ISC",
+  "devDependencies": {
+    "puppeteer": "^19.6.3"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^19.6.3"
+  }
+}
