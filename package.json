@@ -1,10 +1,10 @@
 {
   "name": "my-climbing-stats",
   "version": "1.0.0",
-  "description": "A nodejs 8a.nu scrapper",
-  "main": "index.js",
+  "description": "Little Node.js helper to scrape my 8a.nu's climbing stats",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "netlify dev",
+    "deploy": "netlify deploy --prod"
   },
   "author": "Florian Mailliet",
   "license": "ISC",

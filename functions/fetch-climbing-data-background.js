@@ -114,7 +114,7 @@ const writeClimbingStatsToGithub = async (climbingStats) => {
             repo: GITHUB_REPO,
             path: JSON_PATH,
             sha,
-            message: 'Save climbing stats programatically',
+            message: 'Save climbing stats programmatically',
             content: Base64.encode(climbingStats),
             committer: {
                 name: 'myarcane',
