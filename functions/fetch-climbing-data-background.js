@@ -8,8 +8,8 @@ const PASSWORD_SELECTOR = '#password'
 const CTA_SELECTOR = '#kc-login'
 const SERVICE_HOST = 'https://www.8a.nu'
 const SERVICE_PATH = `/api/users/${process.env.HEIGHT_A_NU_SLUG_USERNAME}/ascents`
-const SERVICE_QS = '?category=sportclimbing'
-
+const SERVICE_QS =
+    '?category=sportclimbing&pageIndex=0&pageSize=100&sortField=grade_desc&timeFilter=0&gradeFilter=0&typeFilter=&isAscented=true&searchQuery=&showRepeats=false'
 const GITHUB_OWNER = 'myarcane'
 const GITHUB_REPO = 'my-climbing-stats'
 const JSON_PATH = 'my-climbing-stats.json'
